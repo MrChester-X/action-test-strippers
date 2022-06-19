@@ -1,1 +1,1 @@
-print("::error file=main.py,line=1,endLine=1,title=Ошибка какая-то::Ошибка как бы без выбора")
+print("::error file=main.py,title=Ошибка какая-то::Ошибка как бы без выбора")
