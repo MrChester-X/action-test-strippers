@@ -1,0 +1,13 @@
+name: Test Strippers
+on: [push]
+
+jobs:
+  check:
+    name: Test Strippers
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Main Check
+        uses: ./
