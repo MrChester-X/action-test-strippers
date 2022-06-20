@@ -1,4 +1,9 @@
-const core = require('@actions/core');
-const github = require('@actions/github');
+const core = require("@actions/core");
+const github = require("@actions/github");
+const fs = require("fs");
 
-core.setFailed("Не сегодня, хых")
+let files = fs.readdirSync("");
+
+for (let file of files) {
+    core.warning(`${file}`)
+}
