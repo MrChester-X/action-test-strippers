@@ -5,5 +5,5 @@ const fs = require("fs");
 let files = fs.readdirSync("addons/stripper/maps");
 
 for (let file of files) {
-    core.warning(`${file}`)
+    core.warning(`${file} ${typeof file}`)
 }
